@@ -1,0 +1,37 @@
+C = Control
+M = Meta = Alt|Esc
+
+C-a	sposta il cursore all'inizio della riga
+C-e	sposta alla fine della riga
+
+M-f	avanti di una parola
+M-b	indietro di una parola
+
+M-d	cancella una parola
+M-Del   delete word backwards
+M-k	elimina periodo
+
+M, a	inizio periodo
+M, e	fine periodo
+
+M, {	inizio paragrafo
+M, }	fine paragrafo
+
+M > sposta il cursore alla fine del file
+M < sposta il cursore all'inizio del file
+
+C-space | C-@ marca inizio regione
+C-u C-space | C-u C-@ torna al mark precedente
+
+C-x 2 split window vertically 
+C-x 0 delete window
+C-u repeat the following command 4 times
+
+|^ freccie: selezione righe
+C-|^ freccie: selezione paragrafo
+C-freccia in basso o in alto: inizio o fine periodo
+
+----
+M-c	capitalizza parola
+M-u	parola in lettere maiuscole
+M-l	parola in lettere minuscole
